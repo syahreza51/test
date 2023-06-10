@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# this is test-app for technical test
+im develop using 
+- React 
+- Webpack
+- Typescript
+- EsLint
+- Unit Test Jest
+- Prettier
+- SASS/SCSS Styling
+- Ant Design
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CI/CD (Auto Deploy when push commit to branch master)
+-netlify
+
 # Demo 
 https://master--snazzy-bunny-3fe36d.netlify.app/
 
