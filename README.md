@@ -10,7 +10,7 @@ im develop using
 - Ant Design
 
 CI/CD (Auto Deploy when push commit to branch master)
--netlify
+- netlify
 
 # Demo 
 https://master--snazzy-bunny-3fe36d.netlify.app/
