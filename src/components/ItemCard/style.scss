@@ -27,8 +27,6 @@
   align-items: center;
 }
 
-:where(.css-dev-only-do-not-override-12jzuas).ant-spin-nested-loading
-  > div
-  > .ant-spin {
+:where(.ant-spin-loading){
   top: 100px !important;
 }

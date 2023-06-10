@@ -11,7 +11,7 @@ const ItemCard: React.FC = () => {
     <Spin
       tip="Loading"
       size="large"
-      className="news_spinning"
+      className="news_spinning ant-spin-loading"
       spinning={articles?.loading}
     >
       <div className="news-list">
