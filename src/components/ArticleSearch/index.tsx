@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { ThunkDispatch } from "redux-thunk";
 import { fetchData } from "../../actions";
@@ -24,6 +24,10 @@ const ArticleSearch: React.FC = () => {
       console.error("Error fetching articles:", error);
     }
   };
+
+  useEffect(() => {
+    dispatch(fetchData());
+  }, [dispatch]);
 
   return (
     <div>
