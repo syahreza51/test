@@ -1,0 +1,34 @@
+.content {
+  display: flex;
+  flex-direction: column;
+
+  .byline {
+    font-size: 12px;
+  }
+  .date {
+    font-size: 10px;
+  }
+  .lead_paragraph {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 10px;
+}
+
+.news_spinning {
+  display: flex;
+  align-items: center;
+}
+
+:where(.css-dev-only-do-not-override-12jzuas).ant-spin-nested-loading
+  > div
+  > .ant-spin {
+  top: 100px !important;
+}
